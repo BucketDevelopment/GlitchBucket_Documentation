@@ -1,7 +1,15 @@
 site_name: GlitchBucket Docs
+nav:
+  - Home: index.md
+  - Application Commands:
+    - commands/quickreport.md
+
 theme:
-  name: readthedocs
-  highlightjs: true
+  name: dracula
+  custom_dir: dracula/
+  logo: assets/img/avatar.png
+  favicon: assets/img/favicon.ico
+  
 plugins:
   - search
   - mkdocstrings:
@@ -10,6 +18,7 @@ plugins:
         python:
           options:
             docstring_style: sphinx
+
 markdown_extensions:
   - markdown_include.include:
       base_path: .
