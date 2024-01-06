@@ -6,6 +6,7 @@ nav:
 
 theme:
   custom_dir: themes/dracula
+  name: dracula
   logo: assets/img/avatar.png
   favicon: assets/img/favicon.ico
   
