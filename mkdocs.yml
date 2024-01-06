@@ -5,7 +5,7 @@ nav:
     - commands/quickreport.md
 
 theme:
-  name: dracula
+  custom_dir: themes/dracula
   logo: assets/img/avatar.png
   favicon: assets/img/favicon.ico
   
